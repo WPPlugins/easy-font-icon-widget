@@ -1,0 +1,114 @@
+.widget_wps_ficwidget {
+  overflow: visible !important;
+}
+
+.wps-ficwidget-output {
+  position: relative;
+}
+
+.wps-ficwidget-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background: #f1f1f1;
+  z-index:10;
+}
+
+.wps-ficwidget-content {
+  position: relative;
+  z-index:100;
+}
+
+.wps-ficwidget-output .sticky {
+  position: absolute;
+  top:-15px;
+  right:-15px;
+  display: inline-block;
+  z-index:999;
+}
+
+/* top left */
+.wps-ficwidget-output .sticky.top-left {
+  right:auto;
+  left:-15px;
+}
+
+/* top center */
+.wps-ficwidget-output .sticky.top-center {
+  right:auto;
+  left:50%;
+  top:-25px;
+  margin-left:-15px;
+}
+
+/* tape */
+.wps-ficwidget-output .sticky-tape {
+  top:-30px;
+  right:-30px;
+}
+
+/* Footer */
+.wps-ficwidget-footer {
+  position: relative;
+}
+
+.wps-ficwidget-footer .wps-ficwidget-footer-left {
+  background: url('../assets/images/shadow-footer-left.png') top left no-repeat;
+  display: inline-block;
+  width: 95px;
+  height: 15px;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.wps-ficwidget-footer .wps-ficwidget-footer-right {
+  background: url('../assets/images/shadow-footer-right.png') top left no-repeat;
+  display: inline-block;
+  width: 95px;
+  height: 15px;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.wps-gfw-btn {
+  margin-top: 15px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius:5px;
+  padding: 10px 0px;
+}
+/* Layout 1 */
+.wps-ficwidget-output.layout-1 .wps-ficwidget-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.wps-ficwidget-output .wps-ficwidget-icon i {
+  vertical-align: top;
+}
+
+.wps-ficwidget-output.layout-1 .wps-ficwidget-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+}
+/* Layout 2 */
+.wps-ficwidget-output.layout-2 .wps-ficwidget-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  float: left;
+}
+
+.wps-ficwidget-output.layout-2 .wps-ficwidget-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  float: right;
+}

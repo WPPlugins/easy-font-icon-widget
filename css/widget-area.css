@@ -1,0 +1,52 @@
+.wps-fic-widget-highlight .widget-top,
+.wps-fic-widget-highlight .widget-title h3 {
+  background: #BDBDBD;
+  font-weight: bold;
+  color: #fff;
+}
+
+.wps-fic-widget-highlight label {
+  vertical-align: top;
+}
+
+.wps-fic-widget-highlight .padding-label {
+  line-height: 31px;
+}
+
+.wps-fic-widget-highlight .padding-input {
+  width: 60px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 10px;
+}
+
+.wps-fic-widget-highlight label {
+  font-weight: bold;
+}
+
+.wps-fic-layout-sample {
+  display: inline-block;
+  width: 180px;
+  height: 97px;
+  margin: 5px;
+  border:1px solid #d1d1d1;
+  background-size:cover !important;
+}
+
+.wps-fic-bg-sample {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border:1px solid #d1d1d1;
+}
+
+.wps-fic-layout-sample:hover,
+.wps-fic-bg-sample:hover {
+  cursor: pointer;
+}
+
+.wps-fic-layout-sample.selected,
+.wps-fic-bg-sample.selected {
+  border:3px solid #36B9ED;
+}
